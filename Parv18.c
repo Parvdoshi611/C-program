@@ -4,10 +4,10 @@ int main(void) {
     float l, b, a, p;
 
     
-    printf(" length of  rectangle: ");
+    printf(" length of  rectangle is ");
     scanf("%f", &l);
 
-    printf(" breadth of rectangle: ");
+    printf(" breadth of rectangle is ");
     scanf("%f", &b);
 
     
