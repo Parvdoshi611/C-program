@@ -4,10 +4,10 @@ int main(void) {
     float l, b, a, p;
 
     
-    printf(" length of  rectangle is ");
+    printf(" Enter the lenght is ");
     scanf("%f", &l);
 
-    printf(" breadth of rectangle is ");
+    printf(" Enter the breath is ");
     scanf("%f", &b);
 
     
