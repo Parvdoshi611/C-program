@@ -4,7 +4,7 @@ int main(void) {
     int gs, a, d, ns;
 
     
-    printf("Gross salary is ");
+    printf("The value of gross salary is ");
     scanf("%d", &gs);
 
     
