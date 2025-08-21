@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main(void) {
-    float dollars, rupees, pounds;
+    int d,r,p;
 
     
-    printf("Enter the amount in US Dollars: ");
-    scanf("%f", &dollars);
+    printf("Enter amount in dollars: ");
+    scanf("%d", &d);
 
     
-    rupees = dollars * 48;
+    r= d* 48;
 
     
-    pounds = rupees / 70;
+    p= r/ 70;
 
     
-    printf("Coversion of Dollars is equal to %f  Pounds.\n",  pounds);
+    printf("The conversion into pounds is \n",  p);
 
     return 0;
 }
