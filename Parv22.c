@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(void) {
-    float gross_sales, discount, net_sales;
+    int gs, d, ns;
 
     
-    printf("Enter the gross sales: ");
-    scanf("%f", &gross_sales);
+    printf("Gross sales is ");
+    scanf("%d", &gs);
 
     
-    discount = 0.10 * gross_sales;
+    d = 0.10 * gs;
 
-    net_sales = gross_sales - discount;
+    ns = gs - d;
 
     
-    printf("Net Sales is %f\n", net_sales);
+    printf("The net sales is %d\n", ns);
 
     return 0;
 }
