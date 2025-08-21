@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 int main(void) {
-    int minutes;
-    int hours;
+    int minute;
+    int hour;
 
-    printf("Enter the number of minutes: ");
-    scanf("%d", &minutes);
+    printf("Enter how many minutes: ");
+    scanf("%d", &minute);
 
-    hours = minutes/ 60;
+    hour = minute/ 60;
 
-    printf("The converion of this minutes into hours is %d \n",hours);
+    printf("The converion  into hours is %d \n",hour);
 
     return 0;
 }
