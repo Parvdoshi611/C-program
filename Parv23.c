@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 int main(void) {
-    int sub1, sub2, sub3, total, average;
+    int sub1, sub2, sub3, t, a;
 
     
-    printf("Enter marks of sub1: ");
+    printf("Marks os sub1 is ");
     scanf("%d", &sub1);
 
-    printf("Enter marks of sub2: ");
+    printf("Marks of sub2 is ");
     scanf("%d", &sub2);
 
-    printf("Enter marks of sub3: ");
+    printf("Marks of sub3 is ");
     scanf("%d", &sub3);
     
-    total = sub1 + sub2 + sub3;
+    t = sub1 + sub2 + sub3;
 
-    average = total / 3;
+    a = t/ 3;
 
-    printf("Total marks is %d\n", total);
-    printf("Average marks is %d\n", average);
+    printf("The total marks are  %d\n", t);
+    printf("The average marks are %d\n", a);
 
     return 0;
 }
