@@ -15,8 +15,8 @@ int main(void) {
     p = 2 * (l + b);
 
     
-    printf("Area of  rectangle  is %f\n", a);
-    printf("Perimeter of  rectangle is %f\n", p);
+    printf("Area is %f\n", a);
+    printf("Perimeter is %f\n", p);
 
     return 0;
 }
