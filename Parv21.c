@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main(void) {
-    float gross_salary, allowance, deduction, net_salary;
+    int gs, a, d, ns;
 
     
-    printf("Enter the gross salary: ");
-    scanf("%f", &gross_salary);
+    printf("Gross salary is ");
+    scanf("%d", &gs);
 
     
-    allowance = 0.10 * gross_salary;
+    a = 0.10 * gs;
 
     
-    deduction = 0.03 * gross_salary;
+    d = 0.03 * gs;
 
     
-    net_salary = gross_salary + allowance - deduction;
+    ns = gs + a - d;
     
-    printf("Net Salary is %f\n", net_salary);
+    printf("The net salary is %d\n", ns);
 
     return 0;
 }
