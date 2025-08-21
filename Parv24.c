@@ -1,23 +1,20 @@
 #include <stdio.h>
 
 int main(void) {
-    int a, b, temp;
+    int a, b, c;
 
     
-    printf("Enter the first value (a): ");
+    printf("Enter the value of a: ");
     scanf("%d", &a);
 
-    printf("Enter the second value (b): ");
+    printf("Enter the value of b: ");
     scanf("%d", &b);
 
-    
-    printf("\nBefore swapping: a = %d, b = %d\n", a, b);
-
-    temp = a;
+    c = a;
     a = b;
-    b = temp;
+    b = c;
 
-    printf("After swapping: a = %d, b = %d\n", a, b);
+    printf("Swapping the values are a = %d, b = %d\n", a, b);
 
     return 0;
 }
