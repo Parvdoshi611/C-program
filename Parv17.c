@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(void) {
-    float length, area, perimeter;
+    float l, a, p;
 
     
-    printf("Enter the length of the square's side: ");
-    scanf("%f", &length);
+    printf("Enter the lenght ");
+    scanf("%f", &l);
 
     
-    area = length * length;
-    perimeter = 4 * length;
+    a = l * l;
+    p = 4 * l;
 
     
-    printf("Area of the square is %f\n", area);
-    printf("Perimeter of the square is %f\n", perimeter);
+    printf("Area of  square is %f\n", a);
+    printf("Perimeter of  square is %f\n", p);
 
     return 0;
 }
