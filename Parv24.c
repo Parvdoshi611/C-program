@@ -14,8 +14,7 @@ int main(void) {
     a = b;
     b = c;
 
-    printf("Swapping the values are a = %d, b = %d\n", a, b);
-
+    printf("Swapping the values are a = %d  b = %d \n", a, b);
     return 0;
 }
 
