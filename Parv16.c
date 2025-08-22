@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    float p, r t, i;
+    float p, r,t, i;
 
     
     printf("Enter the amount of principal ");
@@ -23,4 +23,3 @@ int main(void) {
 
     return 0;
 }
-
