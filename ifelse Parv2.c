@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+int main(void){
   int a,b,c;
   printf("Value of three number :");
   scanf("%d %d %d",&a,&b,&c);
@@ -23,5 +23,5 @@ int main(){
   else if (c<a && c<b){
     printf("%d is smallest",c);
   }
-  returm 0;
+  return 0;
 }
