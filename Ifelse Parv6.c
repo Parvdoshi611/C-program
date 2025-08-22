@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
     int sub1,sub2,sub3,av;
 
     printf("Enter the marks of three subjects");
-    scanf("%d %d %d",sub1,sub2,sub3);
+    scanf("%d %d %d",&sub1,&sub2,&sub3);
 
-    av=(sub1+sub2+sub3)/3
+    av=(sub1+sub2+sub3)/3;
 
     if(av>70){
         printf("Your grade is distinction");
